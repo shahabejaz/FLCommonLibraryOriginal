@@ -98,7 +98,6 @@
 		290EC24E1AADABF7006755BE /* PasteBoardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteBoardUtil.h; sourceTree = "<group>"; };
 		290EC24F1AADABF7006755BE /* PasteBoardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteBoardUtil.m; sourceTree = "<group>"; };
 		293F83D21AA9850F00968A17 /* libCommonLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		293F83E31AA9850F00968A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293F83F41AA98F3400968A17 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
 		293F83F51AA98F3400968A17 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
 		293F83F61AA98F3400968A17 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
@@ -169,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				293F83D41AA9850F00968A17 /* CommonLib */,
-				293F83E11AA9850F00968A17 /* CommonLibTests */,
 				293F83D31AA9850F00968A17 /* Products */,
 				293F84211AA9917100968A17 /* Frameworks */,
 			);
@@ -191,22 +189,6 @@
 				293F83F31AA98EA600968A17 /* ThirdParty Classes */,
 			);
 			path = CommonLib;
-			sourceTree = "<group>";
-		};
-		293F83E11AA9850F00968A17 /* CommonLibTests */ = {
-			isa = PBXGroup;
-			children = (
-				293F83E21AA9850F00968A17 /* Supporting Files */,
-			);
-			path = CommonLibTests;
-			sourceTree = "<group>";
-		};
-		293F83E21AA9850F00968A17 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				293F83E31AA9850F00968A17 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		293F83F11AA98DF900968A17 /* Categories */ = {
