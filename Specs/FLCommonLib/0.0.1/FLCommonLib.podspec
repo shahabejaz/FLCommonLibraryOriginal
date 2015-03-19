@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FLCommonLibrary.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FLCommonLib.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FLCommonLibrary"
+  s.name         = "FLCommonLib"
   s.version      = "0.0.1"
-  s.summary      = "A short description of FLCommonLibrary."
+  s.summary      = "A short description of FLCommonLib"
 
   s.description  = <<-DESC
-                   A longer description of FLCommonLibrary in Markdown format.
+                   A longer description of FLCommonLib in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/FLCommonLibrary"
+  s.homepage     = "http://EXAMPLE/FLCommonLib"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
