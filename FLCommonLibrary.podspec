@@ -16,19 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FLCommonLibrary"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of FLCommonLibrary."
+  s.version      = "0.0.2"
+  s.summary      = "Description for common library"
 
-  s.description  = <<-DESC
-                   A longer description of FLCommonLibrary in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/FLCommonLibrary"
+  s.homepage     = "http://shahabejaz/FLCommonLibrary"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +30,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +47,7 @@ Pod::Spec.new do |s|
   s.author             = { "Shahab Ejaz" => "sejaz@folio3.com" }
   # Or just: s.author    = "Shahab Ejaz"
   # s.authors            = { "Shahab Ejaz" => "sejaz@folio3.com" }
-  # s.social_media_url   = "http://twitter.com/Shahab Ejaz"
+  # s.social_media_url   = "http://twitter.com/shahabejaz"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,8 +80,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "CommonLib/**/*.{h,m}"
+  #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -116,7 +107,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = "SystemConfiguration", "UIKit", "QuartzCore"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
