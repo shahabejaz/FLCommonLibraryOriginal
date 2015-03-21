@@ -28,11 +28,7 @@
 		293F84061AA98F3400968A17 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F83FB1AA98F3400968A17 /* NSString+Extensions.m */; };
 		293F840A1AA98F3400968A17 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F83FF1AA98F3400968A17 /* UIColor+Extensions.m */; };
 		293F84101AA98F5500968A17 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F840D1AA98F5500968A17 /* FileUtil.m */; };
-		293F84181AA98FEE00968A17 /* PRPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F84171AA98FEE00968A17 /* PRPAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		293F841D1AA9904F00968A17 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F841C1AA9904F00968A17 /* DejalActivityView.m */; };
 		293F84221AA9918700968A17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F841F1AA9914D00968A17 /* QuartzCore.framework */; };
-		293F84321AA991C300968A17 /* ALAlertBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F84261AA991C300968A17 /* ALAlertBanner.m */; };
-		293F84341AA991C300968A17 /* ALAlertBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F84281AA991C300968A17 /* ALAlertBannerManager.m */; };
 		293F843F1AA9928400968A17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F843E1AA9928400968A17 /* UIKit.framework */; };
 		293F84421AA993C900968A17 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 293F84411AA993C900968A17 /* Reachability.m */; };
 		293F84451AA993D200968A17 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F84441AA993D200968A17 /* SystemConfiguration.framework */; };
@@ -49,12 +45,7 @@
 		7338612F1AB7107100FD5054 /* Lockbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338612E1AB7107100FD5054 /* Lockbox.m */; };
 		733861301AB7110600FD5054 /* TelephonyUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 733861291AB7103A00FD5054 /* TelephonyUtil.h */; };
 		733861311AB7110600FD5054 /* ConfigurationUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 733861261AB70FE200FD5054 /* ConfigurationUtil.h */; };
-		7338613F1AB713EA00FD5054 /* DejalActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F841B1AA9904F00968A17 /* DejalActivityView.h */; };
-		733861401AB713EA00FD5054 /* ALAlertBanner+Private.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F84241AA991C300968A17 /* ALAlertBanner+Private.h */; };
-		733861411AB713EA00FD5054 /* ALAlertBanner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F84251AA991C300968A17 /* ALAlertBanner.h */; };
-		733861421AB713EA00FD5054 /* ALAlertBannerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F84271AA991C300968A17 /* ALAlertBannerManager.h */; };
 		733861431AB7141500FD5054 /* Lockbox.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7338612D1AB7107100FD5054 /* Lockbox.h */; };
-		733861441AB7141500FD5054 /* PRPAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F84161AA98FEE00968A17 /* PRPAlertView.h */; };
 		736FB2F41AB315F200EE98E8 /* NSArray+Primitive.m in Sources */ = {isa = PBXBuildFile; fileRef = 736FB2ED1AB310F700EE98E8 /* NSArray+Primitive.m */; };
 		736FB3031AB3175900EE98E8 /* NSArray+Primitive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 736FB2EC1AB310F700EE98E8 /* NSArray+Primitive.h */; };
 		736FB3041AB3175900EE98E8 /* NSDate+Extensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 293F83F41AA98F3400968A17 /* NSDate+Extensions.h */; };
@@ -72,11 +63,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				733861431AB7141500FD5054 /* Lockbox.h in CopyFiles */,
-				733861441AB7141500FD5054 /* PRPAlertView.h in CopyFiles */,
-				7338613F1AB713EA00FD5054 /* DejalActivityView.h in CopyFiles */,
-				733861401AB713EA00FD5054 /* ALAlertBanner+Private.h in CopyFiles */,
-				733861411AB713EA00FD5054 /* ALAlertBanner.h in CopyFiles */,
-				733861421AB713EA00FD5054 /* ALAlertBannerManager.h in CopyFiles */,
 				733861301AB7110600FD5054 /* TelephonyUtil.h in CopyFiles */,
 				733861311AB7110600FD5054 /* ConfigurationUtil.h in CopyFiles */,
 				733861251AB70AED00FD5054 /* NSObject+ObjectMap.h in CopyFiles */,
@@ -110,24 +96,7 @@
 		293F83FF1AA98F3400968A17 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
 		293F840C1AA98F5500968A17 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		293F840D1AA98F5500968A17 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
-		293F84161AA98FEE00968A17 /* PRPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPAlertView.h; sourceTree = "<group>"; };
-		293F84171AA98FEE00968A17 /* PRPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPAlertView.m; sourceTree = "<group>"; };
-		293F841B1AA9904F00968A17 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
-		293F841C1AA9904F00968A17 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		293F841F1AA9914D00968A17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		293F84241AA991C300968A17 /* ALAlertBanner+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAlertBanner+Private.h"; sourceTree = "<group>"; };
-		293F84251AA991C300968A17 /* ALAlertBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBanner.h; sourceTree = "<group>"; };
-		293F84261AA991C300968A17 /* ALAlertBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBanner.m; sourceTree = "<group>"; };
-		293F84271AA991C300968A17 /* ALAlertBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertBannerManager.h; sourceTree = "<group>"; };
-		293F84281AA991C300968A17 /* ALAlertBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertBannerManager.m; sourceTree = "<group>"; };
-		293F842A1AA991C300968A17 /* bannerAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerAlert.png; sourceTree = "<group>"; };
-		293F842B1AA991C300968A17 /* bannerAlert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerAlert@2x.png"; sourceTree = "<group>"; };
-		293F842C1AA991C300968A17 /* bannerFailure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerFailure.png; sourceTree = "<group>"; };
-		293F842D1AA991C300968A17 /* bannerFailure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerFailure@2x.png"; sourceTree = "<group>"; };
-		293F842E1AA991C300968A17 /* bannerNotify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerNotify.png; sourceTree = "<group>"; };
-		293F842F1AA991C300968A17 /* bannerNotify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerNotify@2x.png"; sourceTree = "<group>"; };
-		293F84301AA991C300968A17 /* bannerSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerSuccess.png; sourceTree = "<group>"; };
-		293F84311AA991C300968A17 /* bannerSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerSuccess@2x.png"; sourceTree = "<group>"; };
 		293F843E1AA9928400968A17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		293F84401AA993C900968A17 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		293F84411AA993C900968A17 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -186,7 +155,6 @@
 			children = (
 				293F83F11AA98DF900968A17 /* Categories */,
 				293F83F21AA98E1100968A17 /* Utilities */,
-				293F83F31AA98EA600968A17 /* ThirdParty Classes */,
 			);
 			path = CommonLib;
 			sourceTree = "<group>";
@@ -230,42 +198,6 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		293F83F31AA98EA600968A17 /* ThirdParty Classes */ = {
-			isa = PBXGroup;
-			children = (
-				293F841A1AA9904F00968A17 /* ActivityIndicator */,
-				293F84141AA98F7F00968A17 /* AlertView */,
-			);
-			path = "ThirdParty Classes";
-			sourceTree = "<group>";
-		};
-		293F84141AA98F7F00968A17 /* AlertView */ = {
-			isa = PBXGroup;
-			children = (
-				293F84231AA991C300968A17 /* ALAlertBanner */,
-				293F84151AA98FE300968A17 /* PRPAlertView */,
-			);
-			path = AlertView;
-			sourceTree = "<group>";
-		};
-		293F84151AA98FE300968A17 /* PRPAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				293F84161AA98FEE00968A17 /* PRPAlertView.h */,
-				293F84171AA98FEE00968A17 /* PRPAlertView.m */,
-			);
-			path = PRPAlertView;
-			sourceTree = "<group>";
-		};
-		293F841A1AA9904F00968A17 /* ActivityIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				293F841B1AA9904F00968A17 /* DejalActivityView.h */,
-				293F841C1AA9904F00968A17 /* DejalActivityView.m */,
-			);
-			path = ActivityIndicator;
-			sourceTree = "<group>";
-		};
 		293F84211AA9917100968A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,34 +206,6 @@
 				293F841F1AA9914D00968A17 /* QuartzCore.framework */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		293F84231AA991C300968A17 /* ALAlertBanner */ = {
-			isa = PBXGroup;
-			children = (
-				293F84241AA991C300968A17 /* ALAlertBanner+Private.h */,
-				293F84251AA991C300968A17 /* ALAlertBanner.h */,
-				293F84261AA991C300968A17 /* ALAlertBanner.m */,
-				293F84271AA991C300968A17 /* ALAlertBannerManager.h */,
-				293F84281AA991C300968A17 /* ALAlertBannerManager.m */,
-				293F84291AA991C300968A17 /* Images */,
-			);
-			path = ALAlertBanner;
-			sourceTree = "<group>";
-		};
-		293F84291AA991C300968A17 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				293F842A1AA991C300968A17 /* bannerAlert.png */,
-				293F842B1AA991C300968A17 /* bannerAlert@2x.png */,
-				293F842C1AA991C300968A17 /* bannerFailure.png */,
-				293F842D1AA991C300968A17 /* bannerFailure@2x.png */,
-				293F842E1AA991C300968A17 /* bannerNotify.png */,
-				293F842F1AA991C300968A17 /* bannerNotify@2x.png */,
-				293F84301AA991C300968A17 /* bannerSuccess.png */,
-				293F84311AA991C300968A17 /* bannerSuccess@2x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		7338610F1AB7039300FD5054 /* CocoaHash */ = {
@@ -420,17 +324,13 @@
 				293F84421AA993C900968A17 /* Reachability.m in Sources */,
 				733861161AB7039300FD5054 /* NSData+Hash.m in Sources */,
 				293F84061AA98F3400968A17 /* NSString+Extensions.m in Sources */,
-				293F84321AA991C300968A17 /* ALAlertBanner.m in Sources */,
 				293F84001AA98F3400968A17 /* NSDate+Extensions.m in Sources */,
 				293F840A1AA98F3400968A17 /* UIColor+Extensions.m in Sources */,
 				293F84101AA98F5500968A17 /* FileUtil.m in Sources */,
 				293F84021AA98F3400968A17 /* NSDictionary+Extensions.m in Sources */,
 				293F84041AA98F3400968A17 /* NSOperationQueue+SharedQueue.m in Sources */,
 				736FB2F41AB315F200EE98E8 /* NSArray+Primitive.m in Sources */,
-				293F84341AA991C300968A17 /* ALAlertBannerManager.m in Sources */,
-				293F84181AA98FEE00968A17 /* PRPAlertView.m in Sources */,
 				733861171AB7039300FD5054 /* NSData+HexString.m in Sources */,
-				293F841D1AA9904F00968A17 /* DejalActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
